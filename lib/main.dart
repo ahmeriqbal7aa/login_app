@@ -11,6 +11,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomPadding: false,
       body: Container(
         padding: EdgeInsets.fromLTRB(0.0, 30.0, 0.0, 0.0),
         width: double.infinity,
